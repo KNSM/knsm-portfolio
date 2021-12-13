@@ -1,0 +1,39 @@
+.link {
+  transition: .2s;
+  cursor: pointer;
+
+  &.link-text-blue {
+    color: $blueColor;
+
+    &:hover {
+      color: $redColor;
+    }
+  }
+
+  &.link-text-red {
+    color: $redColor;
+
+    &:hover {
+      color: $blueColor;
+    }
+  }
+
+  &.link-default {
+    display: inline-flex;
+    min-height: 42px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border: 1px #fff solid;
+    border-radius: 10px;
+    min-width: 252px;
+    font-weight: 500;
+
+    &:hover {
+      background: #fff;
+      border-color: #fff;
+      color: $primaryColor;
+    }
+  }
+}

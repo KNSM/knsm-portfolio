@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Gulp Project",
   "main": "index.js",
-  "homepage": "https://github.com/KNSM.github.io/knsm-portfolio",
+  "homepage": "http://github.com/KNSM.github.io/knsm-portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d public"

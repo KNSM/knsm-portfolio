@@ -82,7 +82,7 @@
 
     .text {
       font-size: 18px;
-      line-height: 1.5;
+      line-height: 1.8;
       margin-bottom: 28px;
 
       &:last-child {
@@ -492,6 +492,43 @@
         &:hover {
           color: gray;
         }
+      }
+    }
+  }
+}
+
+
+.skills-block {
+  margin: 40px auto 0;
+
+  .skills__title {
+    margin-bottom: 24px;
+
+    .text {
+      font-weight: 700;
+      font-size: 32px;
+    }
+  }
+
+  .skills__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px -10px;
+
+    .list__item {
+      margin: 0 5px 10px;
+      flex: 0 0 auto;
+      background: #235aa6;
+      border-radius: 4px;
+      padding: 10px 20px;
+      transition: .2s;
+
+      .text {
+        font-weight: 500;
+      }
+
+      @media (max-width:$bpPhone) {
+        padding: 5px 10px;
       }
     }
   }
